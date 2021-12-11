@@ -1,8 +1,6 @@
 import React, {Fragment} from 'react';
-
 import { Fade } from 'react-reveal';
-import DisplayLottie from '../components/DisplayLottie'
-import webdev from '../assets/lottie/webdev.json';
+
 
 import {
     Container,
@@ -20,10 +18,10 @@ const Skills = () => {
             <h1 className="h1">{skillsSection.title}</h1>
             <p className="lead">{skillsSection.subTitle}</p>
             <Row>
-                <Col lg="6">
-                    <DisplayLottie animationData={webdev} />
+                <Col lg="4">
+                    {/* <DisplayLottie animationData={webdev} /> */}
                 </Col>
-                <Col lg="6">
+                <Col lg="8">
                     <div className="d-flex justify-content-center flex-wrap mb-5">
                         {
                             skillsSection.softwareSkills.map((skill) => {

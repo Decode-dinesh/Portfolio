@@ -1,5 +1,4 @@
 import React from 'react';
-import build from "../assets/lottie/build";
 
 import { SkillBars } from "../portfolio";
 import {
@@ -11,14 +10,12 @@ import {
 
 import { Fade } from 'react-reveal';
 
-import GreetingLottie from "../components/DisplayLottie";
-
 const Proficiency = () => {
     return ( 
         <Container className="section section-lg">
            <Fade bottom duration={1000} distance="40px">
             <Row>
-                    <Col lg="6">
+                    <Col lg="8">
                         <h1 className="h1">Proficiency</h1>
                         {
                             SkillBars.map(skill => {
@@ -34,8 +31,9 @@ const Proficiency = () => {
                             })
                         }
                     </Col>
-                    <Col lg="6">
-                        <GreetingLottie animationData={build}/>
+                    <Col lg="4">
+                        {/* <GreetingLottie animationData={build}/> */}
+                    
                     </Col>
                 </Row>
            </Fade>

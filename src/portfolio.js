@@ -16,8 +16,8 @@ export const contact = {};
 
 export const socialLinks = {
 	facebook: "#",
-	instagram: "https://www.instagram.com/#",
-	twitter: "https://twitter.com/280997?s=09",
+	instagram: "#",
+	twitter: "#",
 	github: "https://github.com/Decode-dinesh",
 	linkedin: "https://www.linkedin.com/in/dinesh-p-37a773210/",
 };
@@ -90,15 +90,15 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "70", //Insert relative proficiency in percentage
+		progressPercentage: "60", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "60",
+		progressPercentage: "70",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "50",
+		progressPercentage: "60",
 	},
 ];
 
@@ -117,23 +117,49 @@ export const educationInfo = [
 		schoolName: "St. Joseph's college Arts and Science",
 		subHeader: "Bachelor of Science in Physics",
 		duration: "July 2015 -  May 2018",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		desc: "Participated in College Programs.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Received awards, won competition, volunteering, participating in sporting events, etc"
 		],
 	},
-	{
-		schoolName: "Avichi Higher Secondary School",
-		subHeader: "class - X  and class - XII",
-		duration: "June 2012 -  April 2015",
-		desc: "Biology group",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
+	// {
+	// 	schoolName: "Avichi Higher Secondary School",
+	// 	subHeader: "Class - X  TO Class - XII",
+	// 	duration: "June 2012 -  April 2015",
+	// 	desc: "Biology group",
+	// 	descBullets: [
+	// 		"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
+	// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+	// 	],
+	// },
 	
 
 ];
+
+
+export const projects = [
+	{
+		name: "MyFlix",
+		desc: "MyFlix is a full stack application to Watchlist & track movies and tv shows built using MongoDB, Express js, React, Nodejs",
+		link: "https://sharp-kilby-5d3acf.netlify.app/",
+	},
+	{
+		name: "My Desk",
+		desc: "My Desk is a Ticket Management System Built using MongoDB Express js, Nodejs, React",
+		github: "https://github.com/Decode-dinesh/mydesk-frontend.git",
+		link:"https://reverent-morse-14dc2e.netlify.app/"
+	},
+	{
+		name: "My Chat",
+		desc: "My Chat is a Full Stack Chatting App. Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.",
+		github: "https://github.com/Decode-dinesh/mychat.git",
+		link: "https://elated-williams-dfb4a2.netlify.app/",
+	},
+	{
+		name: "Book My Show Clone",
+		desc: "Book my Show application for login use no:123456789",
+		link: "https://hungry-joliot-5685f6.netlify.app/",
+	},
+];
+
 
