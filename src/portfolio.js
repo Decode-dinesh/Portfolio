@@ -4,8 +4,8 @@ export const greetings = {
 	name: "Dinesh P",
 	title: "Hi all, I'm Dinesh",
 	description:
-		"A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
-	resumeLink: "#",
+		"A passionate Full Stack Web Developer having experience in building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks..",
+	resumeLink: "https://drive.google.com/file/d/1W4y1vP5Aph1O09zD6yH0zATni6MBBbm2/view?usp=drivesdk",
 };
 
 export const openSource = {
@@ -103,6 +103,18 @@ export const SkillBars = [
 ];
 
 export const educationInfo = [
+
+		{
+		schoolName: "Guvi Geeks",
+		subHeader: "Software Developer",
+		duration: "Jul 2021 - Present",
+		desc: "Full Stack",
+		descBullets: [
+			"Trained on project based Full Stack Development program in MERN",
+			"Designing backend development by building multi-user Web applications using NodeJs framework and MongoDb",
+		],
+	},
+	
 	{
 		schoolName: "SRM University",
 		subHeader: "Master of Science in Physics and nanotechnology",
@@ -122,17 +134,7 @@ export const educationInfo = [
 			"Received awards, won competition, volunteering, participating in sporting events, etc"
 		],
 	},
-	// {
-	// 	schoolName: "Avichi Higher Secondary School",
-	// 	subHeader: "Class - X  TO Class - XII",
-	// 	duration: "June 2012 -  April 2015",
-	// 	desc: "Biology group",
-	// 	descBullets: [
-	// 		"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-	// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-	// 	],
-	// },
-	
+
 
 ];
 
