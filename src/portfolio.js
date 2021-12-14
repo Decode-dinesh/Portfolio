@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi all, I'm Dinesh",
 	description:
 		"A passionate Full Stack Web Developer having experience in building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks..",
-	resumeLink: "https://drive.google.com/file/d/1W4y1vP5Aph1O09zD6yH0zATni6MBBbm2/view?usp=drivesdk",
+	resumeLink: "https://drive.google.com/file/d/1X3lXodr_R72It8AAr3nJ6nKgRa1u3xnJ/view?usp=sharing",
 };
 
 export const openSource = {
@@ -15,9 +15,6 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "#",
-	instagram: "#",
-	twitter: "#",
 	github: "https://github.com/Decode-dinesh",
 	linkedin: "https://www.linkedin.com/in/dinesh-p-37a773210/",
 };
@@ -104,16 +101,6 @@ export const SkillBars = [
 
 export const educationInfo = [
 
-		{
-		schoolName: "Guvi Geeks",
-		subHeader: "Software Developer",
-		duration: "Jul 2021 - Present",
-		desc: "Full Stack",
-		descBullets: [
-			"Trained on project based Full Stack Development program in MERN",
-			"Designing backend development by building multi-user Web applications using NodeJs framework and MongoDb",
-		],
-	},
 	
 	{
 		schoolName: "SRM University",
