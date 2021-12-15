@@ -16,7 +16,7 @@ export default function ProjectsCard({data}) {
                                     <Button
                                         className="btn-icon"
                                         color="github"
-                                        href={data.link}
+                                        href={data.github}
                                         target="_blank"
                                     >
                                         <span className="btn-inner--icon">
