@@ -22,7 +22,7 @@ const Greetings = () => {
     <Fade top duration={1000} distance="40px">
         <main ref="main">
           <div className="position-relative">
-            <section className="section section-lg section-shaped pb-250">
+            <section className="section section-lg section-shaped pb-200">
               <div className="shape shape-style-1 bg-gradient-dark">
                 <span />
                 <span />
@@ -37,11 +37,11 @@ const Greetings = () => {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    <Col lg="8">
-                      <h1 className="display-3 text-white">
+                    <Col lg="8" className="mt-5">
+                      <h1 className="display-1 text-white">
                         {greetings.title + " "}
                       </h1>
-                      <p className="lead text-white">{greetings.description}</p>
+                      <p className="lead text-white mt-0">{greetings.description}</p>
                       <SocialLinks />
                       <div className="btn-wrapper my-4">
                         <Button
@@ -59,9 +59,8 @@ const Greetings = () => {
                         </Button>
                       </div>
                     </Col>
-                    <Col lg="4">
+                    <Col lg="2">
                       {/* <GreetingLottie animationData={code}/> */}
-                   
                     </Col>
                   </Row>
                 </div>

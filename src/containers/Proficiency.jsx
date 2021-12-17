@@ -15,6 +15,9 @@ const Proficiency = () => {
         <Container className="section section-lg">
            <Fade bottom duration={1000} distance="40px">
             <Row>
+                <Col lg="2">
+                        {/* <GreetingLottie animationData={build}/> */}    
+                    </Col>
                     <Col lg="8">
                         <h1 className="h1">Proficiency</h1>
                         {
@@ -31,7 +34,7 @@ const Proficiency = () => {
                             })
                         }
                     </Col>
-                    <Col lg="4">
+                    <Col lg="2">
                         {/* <GreetingLottie animationData={build}/> */}
                     
                     </Col>
