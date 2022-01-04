@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi all, I'm Dinesh",
 	description:
 		"A passionate Full Stack Web Developer having experience in building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks..",
-	resumeLink: "https://drive.google.com/file/d/1X3lXodr_R72It8AAr3nJ6nKgRa1u3xnJ/view?usp=sharing",
+	resumeLink: "https://drive.google.com/file/d/1ggxHCSGL6rtS8nIUvAtzcXHmg70mRuRA/view?usp=sharing",
 };
 
 export const openSource = {
@@ -130,6 +130,7 @@ export const projects = [
 	{
 		name: "MyFlix",
 		desc: "MyFlix is a full stack application to Watchlist & track movies and tv shows built using MongoDB, Express js, React, Nodejs",
+		github: "https://github.com/Decode-dinesh/Myflix.git",
 		link: "https://sharp-kilby-5d3acf.netlify.app/",
 	},
 	{
@@ -145,9 +146,10 @@ export const projects = [
 		link: "https://elated-williams-dfb4a2.netlify.app/",
 	},
 	{
-		name: "Book My Show Clone",
-		desc: "Book my Show application for login use no:123456789",
-		link: "https://hungry-joliot-5685f6.netlify.app/",
+		name: "Room Booking",
+		desc: "The application basically an online booking system that users can be booking any kind of room built using MERN Stack",
+		link: "https://flamboyant-noether-52e1c8.netlify.app/",
+		
 	},
 ];
 
