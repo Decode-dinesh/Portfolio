@@ -38,10 +38,10 @@ const Skills = () => {
                             })
                         }
                     </div>
-                    <div className='d-flex justify-content-center flex-wrap' >
+                    <div className='d-flex justify-content-start flex-wrap' >
                         {
                             skillsSection.skills.map(skill => {
-                                return <p key={skill}>{skill}</p>
+                                return <p  key={skill}>{skill}</p>
                             })
                         }
                     </div>
