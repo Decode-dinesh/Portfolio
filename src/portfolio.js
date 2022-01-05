@@ -148,6 +148,7 @@ export const projects = [
 	{
 		name: "Room Booking",
 		desc: "The application basically an online booking system that users can be booking any kind of room built using MERN Stack",
+		github: "https://github.com/Decode-dinesh/Roombooking-frontend.git"
 		link: "https://flamboyant-noether-52e1c8.netlify.app/",
 		
 	},
